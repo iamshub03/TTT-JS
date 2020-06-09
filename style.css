@@ -1,0 +1,55 @@
+.container {
+    box-sizing: border-box;
+    margin: auto;
+    margin-top: 50px;
+    width: 315px;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    /* background-color: #333; */
+    display: inline-grid;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: url('back.jpg');
+    /* background-size: cover; */
+}
+
+h2 {
+    font-size: 2em;
+}
+
+.textIntro {
+    margin-bottom: 20px;
+}
+
+.infoend {
+    margin: auto;
+    margin-top: 30%;
+    width: 100%;
+    color: white;
+}
+
+.btn {
+    padding: 10px;
+    margin-bottom: 10px;
+    color: #333;
+    background-color: white;
+}
+
+.btn:hover {
+    background-color: #333;
+    color: white;
+}
+
+@media (max-width: 600px) {
+    .infoend {
+        margin: auto;
+        margin-top: 70%;
+        width: 100%;
+        color: white;
+    }
+}
