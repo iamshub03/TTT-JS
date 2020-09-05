@@ -29,7 +29,7 @@ container.addEventListener('click', function(event) {
                     console.log('Player2 Winner');
                     document.querySelector('.boxes').style.display = 'none';
                     let coIn = document.querySelector('.container');
-                    coIn.insertAdjacentHTML('afterbegin', '<h2>Player 1 Won, Refresh To play Again!</h2><button class="btn" onClick="window.location.reload();">Replay</button>');
+                    coIn.insertAdjacentHTML('afterbegin', '<h2>Player 2 Won, Refresh To play Again!</h2><button class="btn" onClick="window.location.reload();">Replay</button>');
                 }
                 document.getElementById(contID).removeAttribute('id');
                 intro++;
